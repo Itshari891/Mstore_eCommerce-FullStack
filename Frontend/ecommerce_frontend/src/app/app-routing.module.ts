@@ -17,7 +17,7 @@ import { RegisterComponent } from './components/register/register.component';
 const routes: Routes = [
   {path:"signup",component:RegisterComponent},
   {path:"signin",component:LoginComponent},
-  {path:'products',component:HomeComponent},
+  {path:'',component:HomeComponent},
   {path:'product/:id',component:ProductDetailComponent},
   {path:'cart',component:CartComponent},
   {path:'order',component:OrderComponent},

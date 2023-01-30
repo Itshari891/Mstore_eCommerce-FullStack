@@ -42,7 +42,7 @@ export class LoginComponent implements OnInit {
           setTimeout(window.location.href="/admin/dashboard",500)
         }
         else{
-          setTimeout(window.location.href="/products",500)
+          setTimeout(window.location.href="/",500)
         }
         
       } 
