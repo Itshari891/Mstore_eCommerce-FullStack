@@ -13,3 +13,12 @@ The project includes features such as user authentication, product management, s
   ```bash
    git clone https://github.com/Itshari891/Mstore_eCommerce-FullStack.git
    ```
+```console
+
+thecodebuzz@DESKTOP-NUEMRRD:~$ sudo service redis-server restart
+Stopping redis-server: redis-server.
+Starting redis-server: redis-server.
+
+
+
+```
