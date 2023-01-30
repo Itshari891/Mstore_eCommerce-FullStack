@@ -7,7 +7,7 @@ an administrative panel for adding products and categories.
 
 # Features
  - ### Product Listing:
-   A page that displays a list of all available products with detailed information and images.
+   - A page that displays a list of all available products with detailed information and images.
  - Category:
    Products are grouped into categories for easy browsing.
  - Product Detail: A page that displays detailed information about a specific product, including images and customer reviews.
