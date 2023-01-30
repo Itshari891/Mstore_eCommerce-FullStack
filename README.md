@@ -8,3 +8,6 @@ The project includes features such as user authentication, product management, s
  - Django 4.0.6
  - Angular 14.x2.6
  - MySQL 8.0.31
+# Installation
+ -Clone the repository to your local machine
+   git clone https://github.com/<repo_name>.git
