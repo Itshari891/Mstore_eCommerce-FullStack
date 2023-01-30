@@ -1,7 +1,15 @@
 # Mstore_eCommerce-FullStack
 # Overview
-This project is a full-stack eCommerce platform built using Python, Django, Angular, and MySQL.
-The project includes features such as user authentication, product management, shopping cart, and checkout.
+This project is a full-stack eCommerce platform built using Python, Django, Angular, and MySQL. 
+The platform provides a comprehensive set of features for online shopping, including product listing, categorization,
+product detail, shopping cart, order management, customer reviews, and 
+an administrative panel for adding products and categories.
+
+# Features
+ - Product Listing:
+ A page that displays a list of all available products with detailed information and images.
+ - Category:
+ Products are grouped into categories for easy browsing.
 
 # Prerequisites
  - Python 3.10.4
@@ -40,3 +48,5 @@ npm install
 ng serve
 ```
 - Access the application in your browser at http://localhost:4200
+
+
