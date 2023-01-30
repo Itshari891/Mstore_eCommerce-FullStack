@@ -6,10 +6,12 @@ product detail, shopping cart, order management, customer reviews, and
 an administrative panel for adding products and categories.
 
 # Features
- - $\color{blue}Product Listing}$:
- A page that displays a list of all available products with detailed information and images.
+ - Product Listing:
+   A page that displays a list of all available products with detailed information and images.
  - Category:
- Products are grouped into categories for easy browsing.
+   Products are grouped into categories for easy browsing.
+ - Product Detail: A page that displays detailed information about a specific product, including images and customer reviews.
+ -
 
 # Prerequisites
  - Python 3.10.4
