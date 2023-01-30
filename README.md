@@ -11,7 +11,7 @@ The project includes features such as user authentication, product management, s
 # Installation
  - Clone the repository to your local machine.
 
-```shell-session
-   $ git clone https://github.com/Itshari891/Mstore_eCommerce-FullStack.git
+```shell
+git clone https://github.com/Itshari891/Mstore_eCommerce-FullStack.git
 ```
 
