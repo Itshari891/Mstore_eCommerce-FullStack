@@ -1,0 +1,61 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #d02c24;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(166, 166, 166, 0.5), rgba(227, 246, 255, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(222, 222, 222, 0.5), rgba(226, 239, 245, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+.cardsize{
+    width: 90%;
+    background-color: #472151;
+}
+.button{
+        background: rgb(255, 63, 108);
+
+        /* Chrome 10-25, Safari 5.1-6 */
+         background: -webkit-linear-gradient(to right, rgb(255, 63, 95), rgb(255, 63, 95));
+
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgb(255, 63, 95),rgb(237, 67, 95));
+        
+        color: white;
+    }
+span{
+    color:#ff464c
+}
+#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background:#0c151c;
+    color:wheat;
+ }
+.error{
+    margin-left: 24%;
+}
+.form{
+   
+}
+.secwid{
+    background-image: url("src/assets/images/d3f83c5e-7196-47e9-a4a6-c63692a1240e.jpeg");
+    background-size: cover;
+    background-position:800px;
+    
+    width: 100%;
+    height: 650px;
+}

@@ -1,0 +1,52 @@
+<body>
+  
+  <section class=" bg-color secwid"
+ >
+  <div class="mask d-flex align-items-center h-100 ">
+    <div class="container ">
+      <div class="row d-flex  h-100">
+        <div class="col-5 form rounded ">
+          <div class="card rounded cardsize mb-5 mt-3 " style=>
+            <div class="card-body ">
+              <h2 class=" text-center " style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: #f2ad73; font-weight: 600;">Sign in</h2>
+
+              <form class="form "  [formGroup]="signin" (ngSubmit)="signinFunction()">
+
+                <div class="form mb-4">
+                    <label class="form-label" for="form3Example1cg" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: #f2ad73;">Your Name</label>
+                  <input type="text" id="form3Example1cg" class="form-control form-control-lg" formControlName="username" [(ngModel)]="username">
+                  
+                </div>
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example4cg" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: #f2ad73;">Password</label>
+                  <input type="password" id="form3Example4cg" class="form-control form-control-lg" formControlName="password">
+                  <span class="error" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  ">{{usernameError}}</span>
+                  <span  class="error text-center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  ">{{passwordError}}</span>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit"
+                    class="btn  btn-block btn-lg button ">signin</button>
+                </div>
+
+                <p class="text-center text-muted mt-5 mb-0" ><span style="font-family: 'Segoe UI',  Tahoma, Geneva, Verdana, sans-serif;font-weight: 100; opacity: .8;  color: #f2ad73;">New to M Store?   </span><a href="signup"
+                    class="fw-bold text-body"><u style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: #f2ad73;">Create Account</u></a></p>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class=" text-center text-lg-start " id="footer">
+ 
+  <!-- Copyright -->
+  <div class="text-center p-3" >
+    © 2022 Copyright:
+    <a class="text-dark" href="/products"><span  style="color:wheat; text-decoration: underline;">Mstore.com</span></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>

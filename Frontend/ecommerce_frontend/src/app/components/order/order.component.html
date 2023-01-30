@@ -1,0 +1,35 @@
+<div class="container">
+    <div *ngIf="orders">
+      <div class="row rowsize" *ngFor="let order of orders.reverse()">
+        <div class="col-9 " >
+            <div class="card " >
+                <div class="row rowsize2 ">
+                  <div class="col-md-2">
+                    <img src="http://127.0.0.1:8000{{order.product.image}}" class=" img imagesize rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-6 des ">
+                    <div class="card-body">
+                      <h5 class="card-title">{{order.product.name}} 
+                        
+                     </h5>
+                      <p class="card-text">{{order.product.description}}</p>
+                      <p class="card-text">{{order.payment_method}}</p>
+                      <span>status: </span><span >{{order.status}}</span>
+                      <p class="card-text"><small class="text-muted"> Order placed on {{order.ordered_date.slice(0,10).split("-").reverse().join("-")}}</small></p>
+                      
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <button (click)="orderCancelFunction(order.id)" *ngIf="order.status==='order-placed'" type="button" class=" button-5 btn ">cancel</button>
+                    
+                </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+    <div *ngIf="orders.length==0" >
+      <img id="img" src="assets/images/noorders.png" alt="">
+      <p id="i">No Orders yet!</p>
+    </div>
+</div>

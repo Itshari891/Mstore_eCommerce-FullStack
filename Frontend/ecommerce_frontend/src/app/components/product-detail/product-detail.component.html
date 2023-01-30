@@ -1,0 +1,96 @@
+<div class="container-fluid py-5" *ngIf="product">
+    <div class="row px-xl-5">
+        <div class="col-lg-4 pb-5">
+            <div id="product-carousel" class="carousel slide" data-ride="carousel">
+                        <img class=" border-0 align-items-center imagesize" src="{{product.image}}" alt="Image">
+            </div>
+        </div>
+
+        <div class="col-lg-7 pb-5 detailregion">
+            <h3 class="font-weight-semi-bold">{{product.name}}</h3>
+            <div class="d-flex mb-3">
+                <div class="text-primary mr-2">
+                    <small class="fas fa-star"></small>
+                    <small class="fas fa-star"></small>
+                    <small class="fas fa-star"></small>
+                    <small class="fas fa-star-half-alt"></small>
+                    <small class="far fa-star"></small>
+                </div>
+                <small class="pt-1">Rating: {{product.rating}}</small>
+            </div>
+            <h3 class="font-weight-semi-bold mb-4">Rs.{{product.price}}</h3>
+            <p class="mb-4">{{product.description}}</p>
+            
+            
+           <div>
+                <button class="button-6 " (click)="addToCartFunction(product.id)"> Add To Cart</button>  
+                <button class="button-5 " (click)="placeorderFunction(product.id)"> Buy Now</button> 
+            </div>
+            
+        </div>
+    </div>
+    <div class="row px-xl-5">
+        <div class="col-5 px-xl-5">
+           
+            <div class="tab-content">
+               
+                            <form class="reviewform" [formGroup]="reviewform" (ngSubmit)="addReviewFunction(product.id)">
+                               
+                                <div class="form-group">
+                                    <label for="message" class="email">Your Review *</label>
+                                    <textarea id="message" cols="30" rows="5" class="form-control" formControlName="description" ></textarea>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="email" >Title <span class="colorop">(optional)</span></label>
+                                    <input type="email" class="form-control" formControlName="title" id="email">
+                                </div>
+                                <label for="name" class="ratinglabel">Rating </label>
+                                <div class="form-group">
+                                    
+                                    <div class="rate">
+                                        <input type="radio" id="star5"  formControlName="rating" value="5" />
+                                        <label for="star5" title="text">5 stars</label>
+                                        <input type="radio" formControlName="rating" id="star4"  value="4" />
+                                        <label for="star4"  title="text">4 stars</label>
+                                        <input type="radio" formControlName="rating" id="star3"  value="3" />
+                                        <label for="star3" title="text">3 stars</label>
+                                        <input type="radio" formControlName="rating" id="star2"  value="2" />
+                                        <label for="star2" title="text">2 stars</label>
+                                        <input  type="radio" formControlName="rating" id="star1"  value="1" />
+                                        <label for="star1" title="text">1 star</label>
+                                      </div>
+                                </div>
+                                <div class="form-group mb-0 mt-4">
+                                    <input type="submit" value="Leave Your Review" class="btn btn-primary p-3 email">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+
+                   <div class="col-6 mt-5 ratingreview">
+                    <div class="nav nav-tabs justify-content-center border-secondary mb-4">
+                
+                        <a class="nav-item nav-link" style="pointer-events: none"  href=""><h3 class="ratirev">Ratings & Reviews</h3></a>
+                    </div>
+                    <div class="card mb-5 mt-2"  *ngFor="let review of reviews">
+                        <div class="card-header">
+                            <button class="button-3">{{review.rating}} <img  class="size" src="assets/images/star.png" alt=""></button> 
+                          <strong> {{review.title}}</strong>
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                            <p>{{review.description}}</p>
+                            <footer class="certified">Certified Buyer <span>| </span> <span class="username">{{review.user}}</span></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <div *ngIf="reviews.length==0">
+                        <p class="norev">No reviews yet</p>
+                      </div>
+                   </div>
+                </div>
+            </div>
+  

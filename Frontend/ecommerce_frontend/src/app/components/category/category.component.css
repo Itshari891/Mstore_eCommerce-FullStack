@@ -1,0 +1,79 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #d02c24;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(166, 166, 166, 0.5), rgba(227, 246, 255, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(222, 222, 222, 0.5), rgba(226, 239, 245, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+.cardsize{
+    width: 90%;
+    border: 0;
+    border-radius: 0;
+}
+.button{
+        background: rgb(255, 63, 108);
+
+        /* Chrome 10-25, Safari 5.1-6 */
+         background: -webkit-linear-gradient(to right, rgb(255, 63, 95), rgb(255, 63, 95));
+
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgb(255, 63, 95),rgb(237, 67, 95));
+        
+        color: white;
+    }
+span{
+    color:#d02c24
+}
+.cardouter{
+    
+    height: 100%;
+    width: 100%;
+}
+.cardimage{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    padding-left: 30%;
+    border-radius: 0;
+}
+.detail{
+    background-color: #624185;
+    margin-right: 20%;
+    border-radius: 1;
+}
+.addtocart{
+    background-color: #fff460;
+
+    border-radius: 1;
+}
+.cardf{
+    background-color: #ffecd1;
+    padding-bottom: 5%;
+    
+}
+.rowcss{
+    margin-top: 3%;
+}
+.categoryimage{
+    height: 100%;
+    width: 50px;
+    border-radius: 10px;
+    
+}
+.catalign{
+    margin-left: 150px;
+}

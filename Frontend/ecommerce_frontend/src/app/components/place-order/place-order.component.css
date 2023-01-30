@@ -1,0 +1,321 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #d02c24;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(166, 166, 166, 0.5), rgba(227, 246, 255, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(222, 222, 222, 0.5), rgba(226, 239, 245, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+.cardsize{
+    width: 90%;
+    border: 0;
+    border-radius: 0;
+}
+.button{
+        background: rgb(255, 63, 108);
+
+        /* Chrome 10-25, Safari 5.1-6 */
+         background: -webkit-linear-gradient(to right, rgb(255, 63, 95), rgb(255, 63, 95));
+
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgb(255, 63, 95),rgb(237, 67, 95));
+        
+        color: white;
+    }
+span{
+    color:#d02c24
+}
+.cardouter{
+    
+    height: 100%;
+    width: 100%;
+}
+.cardimage{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    padding-left: 30%;
+    border-radius: 0;
+}
+.detail{
+    background-color: #624185;
+    margin-right: 20%;
+    border-radius: 1;
+}
+.addtocart{
+    background-color: #fff460;
+
+    border-radius: 1;
+}
+.cardf{
+    background-color: #ffecd1;
+    padding-bottom: 5%;
+    
+}
+.rowcss{
+    margin-top: 3%;
+}
+.imagesize{
+    height: auto;
+    width: 300px;
+    margin-top: 4%;
+    padding-left: 5%;
+}
+.detailregion{
+    padding-right: 2%;
+}
+.ratirev{
+    color: black;
+    
+}
+
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+.username{
+    color: gray;
+    font-size: medium;
+}
+.certified{
+    color: #2ea44f;
+    font-size: large;
+}
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.button-6 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #ff9f00;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-6:hover,
+  .button-6:focus {
+    background-color: #ff9f00;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-6:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-6:active {
+    background-color: #ff9f00;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+  .wide{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 5%;
+  }
+  .wide2{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .wide3{
+    width: 80%;
+    margin-left: 10%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    border-radius: 10px;
+    
+    
+  }
+  .color{
+    background-color: #624185;
+    color: wheat;
+  }
+  .button-3 {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 40px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 80%;
+  }
+  
+  .button-3:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  .cardsize{
+    width: 90%;
+    border: 0;
+    border-radius: 0;
+}
+.button{
+        background: rgb(255, 63, 108);
+
+        /* Chrome 10-25, Safari 5.1-6 */
+         background: -webkit-linear-gradient(to right, rgb(255, 63, 95), rgb(255, 63, 95));
+
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgb(255, 63, 95),rgb(237, 67, 95));
+        
+        color: white;
+    }
+span{
+    color:#d02c24
+}
+.cardouter{
+    
+    height: 100%;
+    width: 100%;
+}
+.cardimage{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    padding-left: 30%;
+    border-radius: 0;
+}
+.detail{
+    background-color: #624185;
+    margin-right: 20%;
+    border-radius: 1;
+}
+.addtocart{
+    background-color: #fff460;
+
+    border-radius: 1;
+}
+.cardf{
+    background-color: #fcb147;
+    padding-bottom: 5%;
+    
+}
+.rowcss{
+    margin-top: 3%;
+}
+.column{
+  margin-left: 20%;
+  margin-top: 20%;
+  height:84%;
+  width: 100%;
+}

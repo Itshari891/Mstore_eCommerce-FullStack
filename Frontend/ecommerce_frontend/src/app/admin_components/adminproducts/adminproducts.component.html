@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row rowcss" >
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1 column" *ngFor="let product of products">
+                <div class="card cardouter">
+                    <div class="card border-0 cardimage">
+                        <img class="img-thumbnail border-0  rounded-start" src="{{product.image}}" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">{{product.name}}</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>Rs.{{product.price}}</h6><h6 class="text-muted ml-2"></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer   border cardf">
+                        <button (click)="editProduct(product.id)" type="button" class="btn  text-light  border-0   detail">Edit</button>
+                        <button  (click)="productRemoveFunction(product.id)"  type="button" class="btn text-dark  border-0 addtocart">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+           
+</div>

@@ -1,0 +1,87 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary navdimension">
+  
+     
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" *ngFor="let category of categories">
+          <li class="nav-item catalign "  >
+            <a class="nav-link" > <img (click)="navigateToCategoryFunction(category.id)"  class="categoryimage" src="{{category.icon}}" alt="">
+                </a>
+                <a  (click)="navigateToCategoryFunction(category.id)" class="nav-link catname" >{{category.name}}</a>
+          </li>
+          
+        </ul>
+      </div>
+  </nav>
+
+
+
+
+  <!-- carousal -->
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="assets/images/cors1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" >
+        <img src="assets/images/cors2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="assets/images/cors3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<div class="container">
+    
+
+
+    <!-- all products -->
+    <div class="row rowcss" >
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1 column" *ngFor="let product of products">
+                <div class="card cardouter">
+                    <div class="card border-0 cardimage">
+                        <img class="img-thumbnail border-0  rounded-start" src="{{product.image}}" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">{{product.name}}</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>Rs.{{product.price}}</h6><h6 class="text-muted ml-2"></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer   border cardf">
+                        <button (click)="fetchId(product.id)" type="button" class="btn  text-light  border-0   detail">View Detail</button>
+                        <button   (click)="addtocartHomeFunction(product.id)" type="button" class="btn text-dark  border-0 addtocart">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- <div class="container">
+    <div class="row">
+        <div *ngFor="let product of products"  class="col-3">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="{{product.image}}" class="img-thumbnail rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{product.name}}</h5>
+                      
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div> -->

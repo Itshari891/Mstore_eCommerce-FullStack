@@ -1,0 +1,61 @@
+
+  <section class="  secwid"
+  >
+  <div class=" d-flex align-items-center  gradient-custom-3 rowmove">
+    <div class="container ">
+      <div class="row d-flex  ">
+        <div class="col-5 ">
+          <div class="card cardsize mb-5 cde" style=>
+            <div class="card-body ">
+              <h2 class="text-uppercase text-center " style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:wheat;">Signup</h2>
+
+              <form class="form "  [formGroup]="signup" (ngSubmit)="signupFunction()">
+
+                <div class="form mb-4">
+                    <label class="form-label" for="form3Example1cg" style="color:wheat;">Your Name :</label>
+                  <input type="text" id="form3Example1cg" class="form-control form-control-lg" formControlName="username">
+                  <span>{{usernameError}}</span>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example3cg" style="color:wheat;">Your Email :</label>
+                  <input type="email" id="form3Example3cg" class="form-control form-control-lg" formControlName="email">
+                  <span >{{emailError}}</span>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example4cg" style="color:wheat;">Password :</label>
+                  <input type="password" id="form3Example4cg" class="form-control form-control-lg" formControlName="password">
+                  <span>{{passwordError}}</span>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example4cdg" style="color:wheat;">Repeat your password :</label>
+                  <input type="password" id="form3Example4cdg" class="form-control form-control-lg" formControlName="confirm_password">
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit"
+                    class="btn  btn-block btn-lg button ">Register</button>
+                </div>
+
+                <p class="text-center text-muted mt-5 mb-0" ><span style="color:wheat;">Have already an account? </span><a href="signin"
+                    class="fw-bold text-body"><u style="color:wheat;">Login here</u></a></p>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class=" text-center text-lg-start " id="footer">
+ 
+  <!-- Copyright -->
+  <div class="text-center p-3" >
+    © 2022 Copyright:
+    <a class="text-dark" href="/products"><span  style="color:wheat; text-decoration: underline;">Mstore.com</span></a>
+  </div>
+  <!-- Copyright -->
+</footer>

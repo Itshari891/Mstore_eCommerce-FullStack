@@ -1,0 +1,21 @@
+.ipio{
+    display: flex;
+    margin-left: 270px;
+}
+.align{
+    margin-left: 150px;
+}
+body{
+    background-color: #ceb4df;
+    padding-bottom: 160px;
+}
+form{
+    background-color: #735387;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 4%;
+    color: antiquewhite;
+}
+li{
+    font-size: larger;
+}

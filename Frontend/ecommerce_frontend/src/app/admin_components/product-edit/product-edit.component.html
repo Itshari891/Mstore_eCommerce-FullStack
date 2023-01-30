@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        
+        <div class="col-6">
+            <form action="" [formGroup]="product" (ngSubmit)="editProductFunction(productdetail.id)">
+                
+            <div class="mb-3 mt-3 ">
+                <label for="exampleFormControlInput1" class="form-label">Product Name :</label>
+                <input type="text" class="form-control " id="exampleFormControlInput1" ngModel="{{productdetail.name}}" formControlName="name">
+              </div>
+              <div class="mb-3 mt-3 ">
+                <label for="exampleFormControlInput1" class="form-label">Price :</label>
+                <input type="email" class="form-control " id="exampleFormControlInput1" ngModel="{{productdetail.price}}" placeholder="" formControlName="price">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Description :</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ngModel="{{productdetail.description}}" formControlName="description"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Image</label>
+                <input class="form-control" type="file" id="formFile"   (change)="onChange($event)">
+              </div>
+              <!-- category -->
+              <select class="form-select" aria-label="Default select example"   formControlName="category" >
+                    <option value="" >categories</option>
+                    <option  value="{{item.id}}" *ngFor="let item of category"  >{{item.name}}</option>
+              </select>
+              <button class="btn btn-info">Add</button>
+            </form>
+        </div>
+        <div class="col-6" *ngIf="productdetail">
+            <div class="card mt-5" style="width: 18rem;">
+                <img src="{{productdetail.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">{{productdetail.name}}</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

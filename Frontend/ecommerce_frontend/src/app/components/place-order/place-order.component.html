@@ -1,0 +1,59 @@
+<div class="comtainer">
+    <div class="row">
+        <div class="col-4">
+            <div class="col-lg-10  col-md-8 col-sm-12 pb-1   column" >
+                <div class="card cardouter">
+                    <div class="card border-0 cardimage">
+                        <img class="img-thumbnail border-0  rounded-start" src="{{product.image}}" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">{{product.name}}</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>Rs.{{product.price}}</h6><h6 class="text-muted ml-2"></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer   border cardf">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+            <form action="" [formGroup]="order" (ngSubmit)="orderform()">    
+        <label for="exampleFormControlTextarea1" class="form-label mt-5 wide3">Billing Address :</label>
+        <textarea class="form-control wide" id="exampleFormControlTextarea1" formControlName="billing_address" rows="6" ></textarea>
+        
+            <div class="card border-secondary wide2">
+                <div class="card-header color border-0">
+                    <h4 class="font-weight-semi-bold m-0">Payment</h4>
+                </div>
+                <div class="card-body ">
+                    <div class="form-group"  >
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" formControlName="payment_method" value="Paypal"  id="paypal">
+                            <label class="custom-control-label" for="paypal">Paypal</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" formControlName="payment_method" value="cash-on-delivery"  id="directcheck">
+                            <label class="custom-control-label" for="directcheck">Cash on Delivery</label>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" formControlName="payment_method" value="bank-Transfer"  id="banktransfer">
+                            <label class="custom-control-label" for="banktransfer">Bank Transfer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer border-secondary bg-transparent">
+                    <button class="btn btn-lg btn-block button-3 font-weight-bold my-3 py-3">Place Order</button>
+                </div>
+            </div>
+        </form>
+    </div>
+        </div>
+        
+    </div>
+    

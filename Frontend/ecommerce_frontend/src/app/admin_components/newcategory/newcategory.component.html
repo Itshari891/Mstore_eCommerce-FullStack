@@ -1,0 +1,31 @@
+<body>
+    
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form action="" [formGroup]="category" (ngSubmit)="newCategoryFunction()">
+                
+                <div class="mb-3 mt-3 ">
+                    <label for="exampleFormControlInput1" class="form-label">Category Name :</label>
+                    <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="" formControlName="name">
+                  </div>
+                 
+                  <div class="mb-3">
+                    <label for="formFile" class="form-label">Icon :</label>
+                    <input class="form-control" type="file" id="formFile"  (change)="onChange($event)">
+                  </div>
+                  
+                  <button class="btn btn-info">Add</button>
+                </form>
+        </div>
+        <div class="col-4">
+            <div class="coloo">
+                <span class="align ">Categories</span>
+                <ul class="list-group mt-1 border">
+                  <li class="list-group-item cat"   *ngFor="let item of categorylist" type="button" ><span >{{item.name}}</span> <button (click)="categoryRemoveFunction(item.id)" class="btn btn-danger ipio  ">Remove</button></li>
+                </ul>
+              </div> 
+        </div>
+    </div>
+</div>
+</body>
