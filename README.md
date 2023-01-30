@@ -61,4 +61,28 @@ ng serve
 ```
 - Access the application in your browser at http://localhost:4200
 
+# ScreenShots
+## LOGIN
+![Login](https://user-images.githubusercontent.com/106607222/215457105-8a28d6f8-451a-4aa1-bd96-c8d89fa31804.png)
 
+## HOME
+![home](https://user-images.githubusercontent.com/106607222/215457210-f620df6f-d547-495d-b1c5-1c9f99db00a5.jpg)
+
+## CATEGORY
+![cat](https://user-images.githubusercontent.com/106607222/215457517-c1223503-d36c-4b9a-a1e0-b06e16e5588b.jpg)
+
+
+## PRODUCT DETAIL
+![prod_detail](https://user-images.githubusercontent.com/106607222/215457363-5748a642-9a5e-4e34-95bd-d32f8c24dc93.jpg)
+
+## SHOPPING CART
+ ![cart](https://user-images.githubusercontent.com/106607222/215457579-48390ab0-b6a5-4e51-ac1c-da77cfac69ac.jpg)
+
+## ORDERS
+![orders](https://user-images.githubusercontent.com/106607222/215457674-d6efdd08-36b5-4d33-8cad-654423757859.jpg)
+
+## ADMIN DASHBOARD
+![dashb](https://user-images.githubusercontent.com/106607222/215457808-27eaa28a-e72e-4630-a6f0-431584ac82fa.jpg)
+
+## ADD PRODUCT
+![addproduct](https://user-images.githubusercontent.com/106607222/215457861-906da937-4a6e-49df-b137-af2c2c15894f.jpg)
