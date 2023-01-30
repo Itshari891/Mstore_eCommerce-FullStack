@@ -15,7 +15,7 @@ git clone https://github.com/Itshari891/Mstore_eCommerce-FullStack.git
 ```
 # Backend/ecommerceproject
 - Install the required packages
-```sage
+```powershell
 pip install -r requirements.txt
 ```
 # Set up the database
