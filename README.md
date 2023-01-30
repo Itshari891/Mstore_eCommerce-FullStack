@@ -6,7 +6,7 @@ product detail, shopping cart, order management, customer reviews, and
 an administrative panel for adding products and categories.
 
 # Features
- - ## Product Listing:
+ - ### Product Listing:
    A page that displays a list of all available products with detailed information and images.
  - Category:
    Products are grouped into categories for easy browsing.
