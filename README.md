@@ -10,6 +10,6 @@ The project includes features such as user authentication, product management, s
  - MySQL 8.0.31
 # Installation
  - Clone the repository to your local machine.
-  ```sh
+  ```bash
    git clone https://github.com/Itshari891/Mstore_eCommerce-FullStack.git
    ```
