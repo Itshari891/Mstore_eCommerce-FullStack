@@ -15,10 +15,14 @@ git clone https://github.com/Itshari891/Mstore_eCommerce-FullStack.git
 ```
 # Backend/ecommerceproject
 - Install the required packages
-```powershell
+```rake
 pip install -r requirements.txt
 ```
 # Set up the database
-```shell
+```rake
 python manage.py migrate
+```
+# Start the Backend development server
+```rake
+python manage.py runserver
 ```
