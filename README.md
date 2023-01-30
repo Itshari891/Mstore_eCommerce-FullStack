@@ -14,7 +14,7 @@ The project includes features such as user authentication, product management, s
 ```rake
 git clone https://github.com/Itshari891/Mstore_eCommerce-FullStack.git
 ```
-# Backend/ecommerceproject
+## Backend/ecommerceproject
 
 - Install the required packages
 ```rake
@@ -28,7 +28,7 @@ python manage.py migrate
 ```rake
 python manage.py runserver
 ```
-# Frontend/ecommerce_frontend
+## Frontend/ecommerce_frontend
 
 - Install the required packages
 ```rake
